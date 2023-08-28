@@ -40,4 +40,4 @@ class StockSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Stock
-        fields = ["address", "positions"]
+        fields = ['address', 'positions']
